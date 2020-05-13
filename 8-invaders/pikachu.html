@@ -24,50 +24,50 @@
         // Thanos
         var thanos = {
             x: Math.random() * 1200,
-            y: 0,
+            y: -40,
             bild: new Image()
         }
 
         var thor = {
             x: Math.random() * 1200,
-            y: 0,
+            y: -30,
             bild: new Image()
         }
 
         // Futurama Fry
         var fry = {
             x: Math.random() * 1200,
-            y: 0,
+            y: -180,
             bild: new Image()
         }
         // Homer
         var homer = {
             x: Math.random() * 1200,
-            y: 0,
+            y: -130,
             bild: new Image()
         }
         // Ice king
         var iceking = {
             x: Math.random() * 1200,
-            y: 0,
+            y: -60,
             bild: new Image()
         }
         // Deadpool
         var deadpool = {
             x: Math.random() * 1200,
-            y: 0,
+            y: -100,
             bild: new Image()
         }
         // Rick
         var rick = {
             x: Math.random() * 1200,
-            y: 0,
+            y: -200,
             bild: new Image()
         }
         // Groot
         var groot = {
             x: Math.random() * 1200,
-            y: 0,
+            y: -230,
             bild: new Image()
         }
         var lacasa = {
@@ -170,6 +170,7 @@
             if (groot.y > 1000) {
             groot.x = Math.random() * 1200;   
             groot.y = 0;
+            groot.y = 0;
             }
             ctx.drawImage(groot.bild, groot.x, groot.y);
         }
@@ -226,22 +227,23 @@
             switch (e.key) {
                 /* Gå höger med piltangent höger */
                 case "ArrowRight":
-                    lacasa.x += 5;
+                    lacasa.x += 10;
                     break;
                     /* Gå vänster med piltangent vänster */
                 case "ArrowLeft":
-                    lacasa.x -= 5;
+                    lacasa.x -= 10;
                     break;
                     /* Gå upp med piltangent upp */
                 case "ArrowUp":
-                    lacasa.y -= 5;
+                    lacasa.y -= 10;
                     break;
                     /* Gå ner med piltangent ner */
                 case "ArrowDown":
-                    lacasa.y += 5;
+                    lacasa.y += 10;
                     break;
             }
         });
+        
     </script>
 </body>
 </html>
