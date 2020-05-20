@@ -1,0 +1,73 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body {
+    background: url("./img/50476.jpg");
+
+}
+
+.container {
+width: 100%;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 950px;
+    
+}
+
+.panel-heading {
+    margin-top: 50px;
+    color: #fff;
+    left: 180px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+ 
+.panel-footer {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 300px;
+    left: 180px;
+   
+
+}
+
+
+
+.panel-body {
+    margin: 0 15px;
+    border: solid 2px black;
+}
+.panel-body img{
+    width: 320px;
+    height: 480px;
+}
