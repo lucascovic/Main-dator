@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -10,62 +10,47 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
+
 body{
-    background: url("./img/unnamed.jpg");
-    background-position-y: -200px;
-    
+    /* background: url("./img/jake-colling-BXna327uWRQ-unsplash.jpg"); */
+    background-color: #FFD6A5;
+    background-position-y: -400px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
 }
-
 .container{
-    border: solid 2px rgba(219, 0, 0, 0);
-    border-radius: 20px;
-    width: 600px;
-    height: 800px;
-    margin-top: 50px;
-    background: url("./img/red.jpg");
+width: 100%;
+
 }
 
-.container h1{
+.titlar{
+grid-template-columns: 1fr 1fr;
+display: grid;
+margin: 300px 0 0 500px;
+
+}
+.titlar h2 a{
+text-decoration: none;
+color: #fff;
+
+}
+.titlar h2 a:hover{
+text-decoration: none;
+color: #fff;
+
+}
+
+
+.navbar {
+    margin-left: 909px;
+    text-decoration: none;
     color: #fff;
     text-align: center;
-    font-family: 'Anton', sans-serif;
-    margin-top: 20px;
-    font-weight: bold;
-    font-style: italic;
 }
-.container .p1 p{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 50px auto 20px auto;
-    width: 500px;
-    font-weight: bold;
-}
-.navbar-brand {
-    position: absolute;
-    left: 950px;
-    }
-.container .bild img{
-    width: 400px;
-    height: 200px;
-    margin-left: 100px;
-    margin-top: 50px;
-    border: solid 2px rgba(219, 0, 0, 0);
-    border-radius: 15px;
-}
-.container .p2{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 50px auto 20px auto;
-    width: 500px;
-    font-weight: bold;
+.navbar a{
+    
+    text-decoration: none;
+    color: #fff;
 }
 
-.footer{
-    background: #562E51;
-    width: 100%;
-    padding: 10px;
-}
+    
