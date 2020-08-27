@@ -12,9 +12,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 body{
-    /* background: url("./img/jake-colling-BXna327uWRQ-unsplash.jpg"); */
+    /* background: url("./img/nedladdning.png"); */
     background-color: #FFD6A5;
-    background-position-y: -400px;
+    /* background-position-x: 400px; */
     font-family: 'Lato', sans-serif;
     color: #fff;
 }
