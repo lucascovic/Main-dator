@@ -40,9 +40,10 @@ body {
 
 .container {
     width: 100%;
+   
     }
-    nav{
-        position: sticky;
+    .navbar{
+        margin: 0 auto;
     }
     a.navbar-brand p{
         color: #000;
@@ -50,16 +51,12 @@ body {
     a.nav-link p{
         color: #000;
     }
-    .navbar-brand {
-        position: absolute;
-        left: 925px;
+     .navbar-brand {
+    margin-right: 47%;
         
     }
-    .navbar .cart img{
-        position: absolute;
-        left: 1850px;
-        top: 12px;
-    }
+    
+    
     
     .panel-heading {
         margin-top: 50px;
@@ -92,3 +89,10 @@ body {
         margin: 0 15px;
         
     }
+
+
+    @media only screen and (max-width: 600px) {
+        .navbar-toggler-icon{
+            color: black;
+        }
+      }
